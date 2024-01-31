@@ -2,7 +2,7 @@
 
 A Video to ASCII real-time converter for terminal using C++ and OpenCV.
 
-![video-to-ascii](https://github.com/ale3d62/Video-to-ASCII/blob/main/readmegif.gif?raw=true)
+![video-to-ascii](https://github.com/ale3d62/Video-to-ASCII/blob/main/readmegif.gif)
 
 ## Functionalities
 
