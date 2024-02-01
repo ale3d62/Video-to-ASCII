@@ -21,6 +21,7 @@ A Video to ASCII real-time converter for terminal using C++ and OpenCV.
 
 - Windows only.
 - A terminal with escape character suppoprt such as [Windows Terminal](https://apps.microsoft.com/detail/9N0DX20HK701?hl=es-es&gl=ES).
+- Terminal font must be monospaced.
 - [FFmpeg](https://www.ffmpeg.org/) is needed for audio playing.
 - [yt-dlp](https://github.com/yt-dlp/yt-dlp) (which is included in the download) is needed for playing videos from Youtube.
 
