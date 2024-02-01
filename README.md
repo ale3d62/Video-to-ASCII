@@ -20,19 +20,20 @@ A Video to ASCII real-time converter for terminal using C++ and OpenCV.
 ## Requisites
 
 - Windows only.
-- The terminal used must support escape characters.
+- A terminal with escape character suppoprt such as [Windows Terminal](https://apps.microsoft.com/detail/9N0DX20HK701?hl=es-es&gl=ES).
 - [FFmpeg](https://www.ffmpeg.org/) is needed for audio playing.
 - [yt-dlp](https://github.com/yt-dlp/yt-dlp) (which is included in the download) is needed for playing videos from Youtube.
 
 
 ## How to run
 
+Extract the contents of `bin.zip`.
 The `video_to_ascii.exe` must be run with one of the following parameters:
 - `webcam` for loading the webcam preview.
 - `video` for playing a local video. 
 - `link` for playing a Youtube video.
 
-Dependencies (like FFmpeg, yt-dlp, or a local video you want to play) should be in the same directory as `video_to_ascii.exe` if not installed by yourself and accessible from anywhere on your computer.
+Other dependencies (like FFmpeg, yt-dlp, or a local video you want to play) should be in the same directory as `video_to_ascii.exe` if not installed by yourself and accessible from anywhere on your computer.
 
 When playing Youtube videos, yt-dlp is not very flexible with the links, make sure that the link you enter is the one from the actual video. Links to videos played from a playlist or similar may not work.
 
